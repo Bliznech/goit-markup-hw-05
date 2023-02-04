@@ -68,7 +68,7 @@
   width: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(46, 47, 66, 0.3);
+  background-color: rgba(16, 22, 137, 0.8);
   position: absolute;
   display: block;
   padding: 40px 32px 0 32px;
@@ -217,7 +217,18 @@ img {
   text-decoration: none;
 }
 /* Heder links */
-.links-heder::after {
+
+.links-heder {
+  position: relative;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--general-text-color);
+  text-decoration: none;
+}
+.link::after,
+.link-dabl::after {
   position: absolute;
   transform: translateY(28px);
   left: 0;
@@ -228,16 +239,6 @@ img {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
-}
-
-.links-heder {
-  position: relative;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--general-text-color);
-  text-decoration: none;
 }
 .links-heder:hover {
   color: var(--logo-text-color);
