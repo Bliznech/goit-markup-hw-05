@@ -228,6 +228,10 @@ img {
   text-decoration: none;
 }
 
+.color-link,
+.color-studio {
+  color: #4d5ae5;
+}
 .linksss::after,
 .link-dabl::after {
   position: absolute;
@@ -242,7 +246,6 @@ img {
   border-radius: 2px;
 }
 .links-heder:hover {
-  color: var(--logo-text-color);
 }
 .links-heder:focus {
   color: var(--logo-text-color);
