@@ -227,6 +227,7 @@ img {
   color: var(--general-text-color);
   text-decoration: none;
 }
+
 .link::after,
 .link-dabl::after {
   position: absolute;
