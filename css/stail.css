@@ -60,6 +60,7 @@
 .portfolio-all-img:hover .animation-p {
   transform: translate(0, 0);
 }
+
 .animation-p {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translate(0, 100%);
