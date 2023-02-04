@@ -228,7 +228,7 @@ img {
   text-decoration: none;
 }
 
-.link::after,
+.linksss::after,
 .link-dabl::after {
   position: absolute;
   transform: translateY(28px);
