@@ -49,12 +49,16 @@
   align-items: center;
   width: 1158px;
 }
+.portfolio-imej:hover {
+}
 
 .portfolio-animation {
   position: relative;
+  overflow: hidden;
 }
 
-.animation-p {
+.portfolio-all-img:hover .animation-p .animation-p {
+  transform: translate(0, 100%);
   height: 100%;
   width: 100%;
   top: 0;
@@ -72,12 +76,18 @@
 }
 
 .img-portfolio {
+  max-height: 100%;
+  height: auto;
+  display: block;
 }
 
 .portfolio-all-img {
   margin-right: 24px;
   margin-bottom: 48px;
   cursor: pointer;
+}
+.portfolio-all-img:hover {
+  transform: translate(0, 0);
 }
 
 .portfolio-all-img:nth-child(3n) {
