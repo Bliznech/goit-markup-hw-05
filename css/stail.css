@@ -10,8 +10,6 @@
 }
 
 /* cSS Portfolio */
-header {
-}
 
 .conteiner-heder-portfolio {
   border-bottom: 1px solid #e7e9fc;
@@ -50,6 +48,33 @@ header {
   flex-wrap: wrap;
   align-items: center;
   width: 1158px;
+}
+
+.portfolio-animation {
+  position: relative;
+}
+
+.animation-p {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(46, 47, 66, 0.3);
+  position: absolute;
+  display: block;
+  padding: 40px 32px 0 32px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.img-portfolio {
+  max-height: 100%;
+  height: auto;
+  display: block;
 }
 
 .portfolio-all-img {
@@ -121,15 +146,6 @@ img {
   margin: 0 auto;
 }
 
-.animation-studio::before {
-  background: #404bbf;
-  border-radius: 2px;
-}
-
-.animation-studio {
-  margin-right: 40px;
-}
-
 .navwebstudio {
   display: flex;
   margin-top: 0px;
@@ -189,7 +205,21 @@ img {
   text-decoration: none;
 }
 /* Heder links */
+.links-heder::after {
+  position: absolute;
+  transform: translateY(28px);
+  left: 0;
+  bottom: 0;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+}
+
 .links-heder {
+  position: relative;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -578,4 +608,20 @@ h2 {
 .is-hidden {
   opacity: 0;
   pointer-events: none;
+}
+.buton-modal {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.svg-modal {
+  width: 8px;
+  height: 8px;
+  margin: auto;
+  display: block;
 }
